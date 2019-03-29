@@ -39,8 +39,8 @@ sudo make install-webconf
 sudo a2enmod rewrite
 sudo a2enmod cgi
 
-#Create nagiosadmin User Account
-sudo htpasswd -b -c /usr/local/nagios/etc/htpasswd.users nagiosadmin shaman89
+#Create nagiosadmin User Account, replace PASSWORD by password for nagiosadmin
+sudo htpasswd -b -c /usr/local/nagios/etc/htpasswd.users nagiosadmin PASSWORD
 
 #Start Apache Web Server
 sudo systemctl restart apache2.service
