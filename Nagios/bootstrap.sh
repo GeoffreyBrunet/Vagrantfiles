@@ -1,5 +1,5 @@
 #!/bin/sh
-#Written by Brunet Geoffrey
+#Written by Brunet Geoffrey and helped by Nagios documentation.
 
 #INSTALL NAGIOS
 #Verifie server is up to date
