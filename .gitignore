@@ -1,5 +1,12 @@
 Jenkins/ubuntu-bionic-18.04-cloudimg-console.log
 Jenkins/.vagrant
-nagios/.vagrant
-nagios/ubuntu-bionic-18.04-cloudimg-console.log
+Nagios/ubuntu-bionic-18.04-cloudimg-console.log
+Nagios/.vagrant
 Ubuntu.18.04/ubuntu-bionic-18.04-cloudimg-console.log
+Ubuntu.18.04/.vagrant
+Gitlab/ubuntu-bionic-18.04-cloudimg-console.log
+Gitlab/.vagrant
+RabbitMQ/ubuntu-bionic-18.04-cloudimg-console.log
+RabbitMQ/.vagrant
+Docker/ubuntu-bionic-18.04-cloudimg-console.log
+Docker/.vagrant
