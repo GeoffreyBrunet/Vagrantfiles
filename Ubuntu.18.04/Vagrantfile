@@ -1,5 +1,6 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
+#Written by Brunet Geoffrey
 
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/bionic64"
