@@ -13,3 +13,5 @@ Docker/.vagrant
 Gitlab
 PostgreSQL/.vagrant
 PostgreSQL/ubuntu-bionic-18.04-cloudimg-console.log
+Kubernetes/.vagrant
+Kubernetes/ubuntu-bionic-18.04-cloudimg-console.log
