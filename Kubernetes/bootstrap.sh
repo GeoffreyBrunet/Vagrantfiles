@@ -31,3 +31,18 @@ EOF
 sudo apt update
 sudo apt install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
+
+#Kubernetes init
+sudo kubeadm config images pull
+sudo kubeadm init
+
+#Add kubernetes config files for current user
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+#Install Kubernetes dashboard
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml
+
+#Enable kubectl proxy for dashboard connexion
+#kubectl proxy
