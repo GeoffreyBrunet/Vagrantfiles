@@ -10,10 +10,12 @@ RabbitMQ/ubuntu-bionic-18.04-cloudimg-console.log
 RabbitMQ/.vagrant
 Docker/ubuntu-bionic-18.04-cloudimg-console.log
 Docker/.vagrant
-Gitlab
-PostgreSQL/.vagrant
 PostgreSQL/ubuntu-bionic-18.04-cloudimg-console.log
-Kubernetes/.vagrant
+PostgreSQL/.vagrant
 Kubernetes/ubuntu-bionic-18.04-cloudimg-console.log
-Zabbix/.vagrant
+Kubernetes/.vagrant
 Zabbix/ubuntu-bionic-18.04-cloudimg-console.log
+Zabbix/.vagrant
+Gitlab
+Elasticsearch
+Zabbix
