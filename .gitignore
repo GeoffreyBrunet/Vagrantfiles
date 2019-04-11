@@ -19,5 +19,6 @@ Zabbix/.vagrant
 Gitlab
 Elasticsearch
 Zabbix
-Grafana
+Grafana/ubuntu-bionic-18.04-cloudimg-console.log
+Grafana/.vagrant
 Alpine.linux
